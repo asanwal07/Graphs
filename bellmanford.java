@@ -7,7 +7,7 @@
 
 /*ye tab kaam ati hai jab  negative weight vale edges bhi present ho but dijkistra tb kaam ni krta this will work*/
 
-//we are ASSUMING THERE IS NO NEGATIVE WIEGHT CYCLE IF THERE IS THEN IT IS IMPOSSIBLE TO CALCULATE SHORTEST PATH AS WE CAN TRAVEL THE CYCLE INFINITE TIMES AND EACH TIME WE WILL GET LESS PATH LENGTH
+//we are ASSUMING THERE IS NO NEGATIVE WIEGHT CYCLE IF THERE IS THEN IT IS IMPOSSIBLE TO CALCULATE SHORTEST PATH AS WE CAN TRAVEL THE CYCLE INFINITE TIMES AND EACH TIME WE WILL GET LESS PATH LENGTH from the last one
 
 // ALGO STEPS->>
 /*1.dp ki trh answer array declare krdo phle  then fill it with max value(infinity distance*/
@@ -29,8 +29,8 @@
                               path[v] = path[u] + wt;
                         }
             }
-      
-      */
+4.ab last mai asnwer array mai traverse kr and dekh ki jisme infinite ni pda hai usko print kra de
+               */
 
 import java.io.BufferedReader;
 import java.io.IOException;
